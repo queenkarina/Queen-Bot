@@ -80,7 +80,7 @@ async def redis(pong):
     start = datetime.now()
     await pong.edit("PONG!!")
     await asyncio.sleep(2)
-    await pong.edit(f"{REPO_NAME}")
+    await pong.edit(f"👸 𝗤𝗨𝗘𝗘𝗡-𝗕𝗢𝗧 👸")
     await asyncio.sleep(3)
     end = datetime.now()
     duration = (end - start).microseconds / 1000
