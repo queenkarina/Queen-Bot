@@ -55,7 +55,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
         if HEROKU_APP_NAME is None:
             await event.edit(
                 '`[HEROKU]: Harap Siapkan Variabel` **HEROKU_APP_NAME** `'
-                ' untuk dapat deploy perubahan terbaru dari RAM-USERBOT.`'
+                ' untuk dapat deploy perubahan terbaru dari 𝗤𝗨𝗘𝗘𝗡-𝗕𝗢𝗧.`'
             )
             repo.__del__()
             return
@@ -128,7 +128,7 @@ async def update(event, repo, ups_rem, ac_br):
     if BOTLOG:
         await event.client.send_message(
             BOTLOG_CHATID, "#BOT \n"
-            "**RAM-UBOT Telah Di Perbarui ツ**")
+            "**QUEEN-BOT Telah Di Perbarui ツ**")
         await asyncio.sleep(100)
         await event.delete()
 
@@ -190,7 +190,7 @@ async def upstream(event):
 
     if changelog == '' and force_update is False:
         await event.edit(
-            f"\n**{REPO_NAME} Sudah Versi Terbaru**\n")
+            f"\n**👸𝗤𝗨𝗘𝗘𝗡-𝗕𝗢𝗧👸 Sudah Versi Terbaru**\n")
         await asyncio.sleep(15)
         await event.delete()
         return repo.__del__()
@@ -210,18 +210,18 @@ async def upstream(event):
             remove("output.txt")
         else:
             await event.edit(changelog_str)
-        return await event.respond(f"**Perintah Untuk Update {REPO_NAME}**\n >`.update one`\n >`.update all`\n\n__Untuk Meng Update Fitur Terbaru Dari {REPO_NAME}.__")
+        return await event.respond(f"**Perintah Untuk Update {REPO_NAME}**\n >`.update one`\n >`.update all`\n\n__Untuk Meng Update Fitur Terbaru Dari 👸𝗤𝗨𝗘𝗘𝗡-𝗕𝗢𝗧👸 .__")
 
     if force_update:
         await event.edit(
             '`Sinkronisasi Paksa Ke Kode Userbot Stabil Terbaru, Harap Tunggu .....`')
     else:
-        await event.edit(f"`{EMOJI_HELP} Proses Update {REPO_NAME}, Loading....1%`")
-        await event.edit(f"`{EMOJI_HELP} Proses Update {REPO_NAME}, Loading....20%`")
-        await event.edit(f"`{EMOJI_HELP} Proses Update {REPO_NAME}, Loading....35%`")
-        await event.edit(f"`{EMOJI_HELP} Proses Update {REPO_NAME}, Loading....77%`")
-        await event.edit(f"`{EMOJI_HELP} Proses Update {REPO_NAME}, Updating...90%`")
-        await event.edit(f"`{EMOJI_HELP} Proses Update {REPO_NAME}, Mohon Menunggu....100%`")
+        await event.edit(f"`👸 Proses Update 👸𝗤𝗨𝗘𝗘𝗡-𝗕𝗢𝗧👸, Loading....1%`")
+        await event.edit(f"`👸 Proses Update 👸𝗤𝗨𝗘𝗘𝗡-𝗕𝗢𝗧👸, Loading....20%`")
+        await event.edit(f"`👸 Proses Update 👸𝗤𝗨𝗘𝗘𝗡-𝗕𝗢𝗧👸, Loading....35%`")
+        await event.edit(f"`👸 Proses Update 👸𝗤𝗨𝗘𝗘𝗡-𝗕𝗢𝗧👸, Loading....77%`")
+        await event.edit(f"`👸 Proses Update 👸𝗤𝗨𝗘𝗘𝗡-𝗕𝗢𝗧👸, Updating...90%`")
+        await event.edit(f"`👸 Proses Update 👸𝗤𝗨𝗘𝗘𝗡-𝗕𝗢𝗧👸, Mohon Menunggu....100%`")
     if conf == "one":
         await update(event, repo, ups_rem, ac_br)
         await asyncio.sleep(5)
@@ -238,7 +238,7 @@ CMD_HELP.update({
     ".update"
     "\nUsage: Untuk Melihat Pembaruan Terbaru RAM-UBOT."
     "\n\n.update one"
-    "\nUsage: Memperbarui RAM-UBOT."
+    "\nUsage: Memperbarui 👸𝗤𝗨𝗘𝗘𝗡-𝗕𝗢𝗧👸."
     "\n\n.update all"
-    "\nUsage: Memperbarui RAM-UBOT Dengan Cara Deploy Ulang."
+    "\nUsage: Memperbarui 👸𝗤𝗨𝗘𝗘𝗡-𝗕𝗢𝗧👸 Dengan Cara Deploy Ulang."
 })
