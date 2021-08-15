@@ -31,8 +31,8 @@
 <a href="https://t.me/teman_random"><img src="https://img.shields.io/badge/Join-TEMAN%20RANDOM-purple.svg?style=for-the-badge&logo=Telegram"></a>
 
 ## Penjelasan:
-* **Repo Nya toxic, Gajelas pokoknya mah.** 
-[<img src="https://telegra.ph/file/be5a4a2cb6aac37ca7945.jpg">](https://t.me/ootspambott)
+* **Repo ini punya orang cantik pokok nya mah.* 
+[<img src="https://telegra.ph/file/25b1b02dc8e57867d2924.jpg">](https://t.me/ootspambott)
 
 
 <h3 align="center">REPO RAM UBOT DIBUAT KARNA YAA MEMANG PENGEN DIBUAT WKWKWK.</h3>
