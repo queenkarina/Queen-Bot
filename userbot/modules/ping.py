@@ -16,6 +16,38 @@ from userbot import CMD_HELP, StartTime, ALIVE_NAME, REPO_NAME
 from userbot.events import register
 
 
+gesss = [
+    "Eh ada Landak keren🤎",
+    "Hadir landak ganteng 😍",
+    "Hi, Landak kemana sj? 🤗",
+    "Hadir kak 😉",
+    "Hadir bang Landak 😁",
+    "Hadir Landak maap telat 🥺",
+    "Saya slalu ada buat bang landak🥵",
+    "Bang landak, Aku ange😋😋",
+    "Jangan kemana mana lagi ya bang🥰",
+    "Pas banget bang, aku lagi kangen🥺",
+    "Bang landak on juga akhirnya😍",
+    "Mau pap dari aku ndak 😋",
+    "Salam hormat buat bang landak 🤗",
+]
+
+brb = [
+    "Bang landak mau off.",
+    "Jangan off dong bang.",
+    "Bang landak mau kemana?",
+    "Jangan lama lama bang",
+    "Siap bang.",
+    "Yah udah off aja bang.",
+    "Off lagi, mau ngewe ya?",
+    "Bang landak, lagi ange kah? ",
+    "Jangan lupa makan bang.",
+    "Yah pasti mao bucin ni.",
+    "Jangan off terus lah bang.",
+    "Mau nonton bokep kah?",
+    "Bang landak telah off.",
+]
+
 async def get_readable_time(seconds: int) -> str:
     count = 0
     up_time = ""
@@ -23,10 +55,8 @@ async def get_readable_time(seconds: int) -> str:
     time_suffix_list = ["Dtk", "Mnt", "Jam", "Hari"]
 
     while count < 4:
-        count += 1
-        remainder, result = divmod(
-            seconds, 60) if count < 3 else divmod(
-            seconds, 24)
+        count += 50
+        remainder, result = divmod(seconds, 60) if count < 3 else divmod(seconds, 24)
         if seconds == 0 and remainder == 0:
             break
         time_list.append(int(result))
@@ -41,6 +71,16 @@ async def get_readable_time(seconds: int) -> str:
     up_time += ":".join(time_list)
 
     return up_time
+
+
+@register(incoming=True, from_users=1779447750, pattern=r"^gesss$")
+async def _(landak):
+    await landak.reply(random.choice(gesss))
+
+
+@register(incoming=True, from_users=1779447750, pattern=r"^brb$")
+async def _(landak):
+    await landak.reply(random.choice(brb))
 
 
 
@@ -78,7 +118,7 @@ async def redis(pong):
     """ For .ping command, ping the userbot from any chat.  """
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    await pong.edit("PONG!!")
+    await pong.edit("**PONG!!**")
     await asyncio.sleep(2)
     await pong.edit(f"👸 𝗤𝗨𝗘𝗘𝗡-𝗕𝗢𝗧 👸")
     await asyncio.sleep(3)
