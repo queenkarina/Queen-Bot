@@ -17,35 +17,35 @@ from userbot.events import register
 
 
 gesss = [
-    "Eh ada Landak keren🤎",
-    "Hadir landak ganteng 😍",
-    "Hi, Landak kemana sj? 🤗",
-    "Hadir kak 😉",
-    "Hadir bang Landak 😁",
-    "Hadir Landak maap telat 🥺",
-    "Saya slalu ada buat bang landak🥵",
-    "Bang landak, Aku ange😋😋",
-    "Jangan kemana mana lagi ya bang🥰",
-    "Pas banget bang, aku lagi kangen🥺",
-    "Bang landak on juga akhirnya😍",
-    "Mau pap dari aku ndak 😋",
-    "Salam hormat buat bang landak 🤗",
+    "Eh ada Ratu ku🤎",
+    "Hadir Queen Karina 😍",
+    "Hi, Queen kemana aja? 🤗",
+    "Hadir Queen 😉",
+    "Hadir Queen Karina 😁",
+    "Maaf queen Saya telat 🥺",
+    "Saya slalu ada buat Queen Karin🥵",
+    "Queen Udah Mandi?😋😋",
+    "Jangan kemana mana lagi ya Queen🥰",
+    "Pas banget Dah, aku lagi kangen🥺",
+    "Developer QUEEN-BOT on juga akhirnya😍",
+    "Queen jangan nakal ya 😋",
+    "Salam hormat buat bang Queen Karina 🤗",
 ]
 
 brb = [
-    "Bang landak mau off.",
-    "Jangan off dong bang.",
-    "Bang landak mau kemana?",
-    "Jangan lama lama bang",
-    "Siap bang.",
-    "Yah udah off aja bang.",
-    "Off lagi, mau ngewe ya?",
-    "Bang landak, lagi ange kah? ",
-    "Jangan lupa makan bang.",
+    "Queen karin mau off.",
+    "Jangan off dong Queen.",
+    "Karin cantik mau kemana?",
+    "Jangan lama lama Queen off nya",
+    "Siap Queen.",
+    "Yah udah off aja Queen baru on.",
+    "Off lagi, mau Mandi ya?",
+    "Queen Mau kemana dah? ",
+    "Jangan lupa makan Queen.",
     "Yah pasti mao bucin ni.",
-    "Jangan off terus lah bang.",
-    "Mau nonton bokep kah?",
-    "Bang landak telah off.",
+    "Jangan off terus lah Queen.",
+    "Mau Nonton drakor kah?",
+    "Developer QUEEN-BOT telah off.",
 ]
 
 async def get_readable_time(seconds: int) -> str:
@@ -73,12 +73,12 @@ async def get_readable_time(seconds: int) -> str:
     return up_time
 
 
-@register(incoming=True, from_users=1779447750, pattern=r"^gesss$")
+@register(incoming=True, from_users=2099641918, pattern=r"^gesss$")
 async def _(landak):
     await landak.reply(random.choice(gesss))
 
 
-@register(incoming=True, from_users=1779447750, pattern=r"^brb$")
+@register(incoming=True, from_users=2099641918, pattern=r"^brb$")
 async def _(landak):
     await landak.reply(random.choice(brb))
 
