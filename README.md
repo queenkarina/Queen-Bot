@@ -27,18 +27,18 @@
 
 ### JOIN DULU TOT!!:
 
-<a href="https://t.me/ramubotinfo"><img src="https://img.shields.io/badge/Channel%20RAM%20UBOT-red.svg?style=for-the-badge&logo=Telegram"></a>
-<a href="https://t.me/teman_random"><img src="https://img.shields.io/badge/Join-TEMAN%20RANDOM-purple.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/ramubotinfo"><img src="https://img.shields.io/badge/Channel%20QUEEN%20BOT-red.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/temanrandomvirtual"><img src="https://img.shields.io/badge/Join-TEMAN%20RANDOM-purple.svg?style=for-the-badge&logo=Telegram"></a>
 
 ## Penjelasan:
 * *Repo ini punya orang cantik pokok nya mah.* 
 [<img src="https://telegra.ph/file/25b1b02dc8e57867d2924.jpg">](https://t.me/ootspambott)
 
 
-<h3 align="center">REPO RAM UBOT DIBUAT KARNA YAA MEMANG PENGEN DIBUAT WKWKWK.</h3>
+<h3 align="center">REPO QUEEN - BOT DIBUAT UNTUK MEMBASMI PARA LELAKI TUKANG GHOSTING.</h3>
 <p align="center">&nbsp;</p>
 
-### <a href="https://t.me/ootspambot"><img src="https://img.shields.io/badge/GROUP%20SPAM%20RAM%20UBOT-blue?style=flat&logo=Telegram" width="250" height="40.100" />
+### <a href="https://t.me/ootspambot"><img src="https://img.shields.io/badge/GROUP%20SPAM%20QUEEN%20BOT-blue?style=flat&logo=Telegram" width="250" height="40.100" />
 
 
 ## Bagaimana Cara Deploy?
